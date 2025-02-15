@@ -1,3 +1,5 @@
+okaoka allows injecting a different allocator for the third party code which does not provide such options. It does this by switching between allocators using a hook on the global allocator.
+
 # Example
 
 ```rust
